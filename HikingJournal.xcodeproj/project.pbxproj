@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		FA142A502DD42F480044511A /* HotwireNative in Frameworks */ = {isa = PBXBuildFile; productRef = FA142A4F2DD42F480044511A /* HotwireNative */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		FA142A362DD42E950044511A /* HikingJournal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HikingJournal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -36,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA142A502DD42F480044511A /* HotwireNative in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,7 @@
 			);
 			name = HikingJournal;
 			packageProductDependencies = (
+				FA142A4F2DD42F480044511A /* HotwireNative */,
 			);
 			productName = HikingJournal;
 			productReference = FA142A362DD42E950044511A /* HikingJournal.app */;
@@ -107,6 +113,9 @@
 			);
 			mainGroup = FA142A2D2DD42E950044511A;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				FA142A4E2DD42F480044511A /* XCRemoteSwiftPackageReference "hotwire-native-ios" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = FA142A372DD42E950044511A /* Products */;
 			projectDirPath = "";
@@ -333,6 +342,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FA142A4E2DD42F480044511A /* XCRemoteSwiftPackageReference "hotwire-native-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hotwired/hotwire-native-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FA142A4F2DD42F480044511A /* HotwireNative */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA142A4E2DD42F480044511A /* XCRemoteSwiftPackageReference "hotwire-native-ios" */;
+			productName = HotwireNative;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FA142A2E2DD42E950044511A /* Project object */;
 }
