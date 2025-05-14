@@ -1,6 +1,6 @@
 import HotwireNative
 import UIKit
-let baseURL = URL(string: "http://localhost:3000")!
+let baseURL = URL(string: "http://e42b7edd97d1c8.lhr.life")!
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     var window: UIWindow?
     private let navigator = Navigator()
