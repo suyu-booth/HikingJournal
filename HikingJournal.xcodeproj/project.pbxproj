@@ -15,22 +15,22 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		FA142A482DD42E960044511A /* Exceptions for "HikingJournal" folder in "HikingJournal" target */ = {
+		FA142A482DD42E960044511A /* Exceptions for "App" folder in "HikingJournal" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Info.plist,
+				Resources/Info.plist,
 			);
 			target = FA142A352DD42E950044511A /* HikingJournal */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		FA142A382DD42E950044511A /* HikingJournal */ = {
+		FA142A382DD42E950044511A /* App */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				FA142A482DD42E960044511A /* Exceptions for "HikingJournal" folder in "HikingJournal" target */,
+				FA142A482DD42E960044511A /* Exceptions for "App" folder in "HikingJournal" target */,
 			);
-			path = HikingJournal;
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -50,7 +50,7 @@
 		FA142A2D2DD42E950044511A = {
 			isa = PBXGroup;
 			children = (
-				FA142A382DD42E950044511A /* HikingJournal */,
+				FA142A382DD42E950044511A /* App */,
 				FA142A372DD42E950044511A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -79,7 +79,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				FA142A382DD42E950044511A /* HikingJournal */,
+				FA142A382DD42E950044511A /* App */,
 			);
 			name = HikingJournal;
 			packageProductDependencies = (
@@ -155,7 +155,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HikingJournal/Info.plist;
+				INFOPLIST_FILE = App/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -182,7 +182,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HikingJournal/Info.plist;
+				INFOPLIST_FILE = App/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
