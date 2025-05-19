@@ -1,6 +1,6 @@
 import HotwireNative
 import UIKit
-let baseURL = URL(string: "http://e42b7edd97d1c8.lhr.life")!
+let baseURL = URL(string: "http://cc2623cbb0a185.lhr.life")!
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     var window: UIWindow?
     private let tabBarController = TabBarController()
